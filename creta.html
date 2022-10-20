@@ -362,15 +362,20 @@ margin-left: 40%;
   <div class="footer-left">
     <br>
     <a href="index.html">
-      <img class="jireh" src="img/logo jireh i.jpg" alt="">
+      <img class="jireh1" src="img/logo jireh i.jpg" alt="">
     </a>
  
-  
+  <style>
+    .jireh1{
+      width: 90px;
+    }
+  </style>
+
   <br>
   <br>
-     <p>
+     <p class="texto">
       Rua Jundiaí 316 Bairro Matriz Maua -SP</p>
-     <h6>CEP:09370-180</h6>
+     <h6 class="texto">CEP:09370-180</h6>
     <p class="footer-company-name"> © 2022 Jireh Imoveis.</p>
   </div>
   <div class="footer-center">
@@ -482,6 +487,19 @@ margin-left: 40%;
       margin: 0;
     }
   </style>
+
+<style>
+  /*altera configuraçâo quando a tela estiver menor que 600px*/
+@media screen and (max-width: 600px) {
+.jireh1{
+ display: none;
+}
+.texto{
+display: none;
+}
+}
+
+</style>
 
     <script src="js\bootstrap.js"></script>
 </body>

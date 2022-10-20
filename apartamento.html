@@ -88,10 +88,27 @@
 <style>
     .maior{
         margin-left: 5%;
+        width: 20%;
     }
 </style>
 <br>
 
+
+  
+  <br>
+
+<div id="scrool " class =" scrollmenu ">
+<div>
+    <img class =" img_topo1 " src="img/edificio.jpg" alt="">
+    <img  class =" img_topo1 " src="img/edificio3.jpg" alt="">
+    <img class =" img_topo1 " src="img/edificio4.jpg" alt="">
+    <img  class =" img_topo1 " src="img/edificio5.jpg" alt="">
+    <p class="text-black">
+        Imagens ilustrativas</p>
+</div>
+</div>
+
+<center>
 <p>  Vila Nossa Senhora das Vitórias - Mauá.</p>
 <br>
 <ul class="list-group">
@@ -106,21 +123,7 @@
     </li>
   </center>
   </ul>
-  
-  <br>
-
-<div id="scrool " class =" scrollmenu ">
-<div>
-    <img class =" img_topo1 " src="img/edificio.jpg" alt="">
-    <img  class =" img_topo " src="img/edificio2.jpg" alt="">
-    <img  class =" img_topo1 " src="img/edificio3.jpg" alt="">
-    <img class =" img_topo1 " src="img/edificio4.jpg" alt="">
-    <img  class =" img_topo1 " src="img/edificio5.jpg" alt="">
-    <p class="text-black">
-        Imagens ilustrativas</p>
-</div>
-</div>
-
+</center>
 
   <style>
     .w-100{
@@ -398,15 +401,20 @@ margin-left: 40%;
   <div class="footer-left">
     <br>
     <a href="index.html">
-      <img class="jireh" src="img/logo jireh i.jpg" alt="">
+      <img class="jireh1" src="img/logo jireh i.jpg" alt="">
     </a>
     
+    <style>
+      .jireh1{
+        width: 90px;
+      }
+    </style>
   
   <br>
   <br>
-     <p>
+     <p class="texto">
       Rua Jundiaí 316 Bairro Matriz Maua -SP</p>
-     <h6>CEP:09370-180</h6>
+     <h6 class="texto">CEP:09370-180</h6>
     <p class="footer-company-name"> © 2022 Jireh Imoveis.</p>
   </div>
   <div class="footer-center">
@@ -517,6 +525,19 @@ margin-left: 40%;
       font-weight: normal;
       margin: 0;
     }
+  </style>
+
+  <style>
+    /*altera configuraçâo quando a tela estiver menor que 600px*/
+@media screen and (max-width: 600px) {
+ .jireh1{
+   display: none;
+ }
+ .texto{
+  display: none;
+ }
+  }
+
   </style>
 
     <script src="js\bootstrap.js"></script>
